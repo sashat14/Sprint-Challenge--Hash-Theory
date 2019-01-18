@@ -90,3 +90,5 @@ Students can receive up to 100 points for their work over the entire week: Array
   * __3__: 90+
   * __2__: 70-89
   * __1__: 0-69
+
+  https://github.com/LambdaSchool/Sprint-Challenge--Hash-Theory/pull/97
