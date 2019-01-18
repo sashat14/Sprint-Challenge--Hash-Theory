@@ -14,8 +14,8 @@ char **reconstruct_trip(Ticket **tickets, int length)
   }
 
   route[0] = hash_table_retrieve(ht, "NONE");
-  for(int i=0; i<length; i++){
-    route[i] = hash_table_retrieve(ht, tickets[1]->destination);
+  for(int i=1; i<length; i++){
+    route[i] = hash_table_retrieve(ht, route[i-1]);
   }
   destroy_hash_table(ht);
   return route;
