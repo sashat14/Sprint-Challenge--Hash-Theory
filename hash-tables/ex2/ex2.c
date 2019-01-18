@@ -8,10 +8,8 @@ char **reconstruct_trip(Ticket **tickets, int length)
 {
   HashTable *ht = create_hash_table(16);
   char **route = malloc(length * sizeof(char *));
-
-  // YOUR CODE HERE
-
-  return route;
+  
+  
 }
 
 void print_route(char **route, int length)
